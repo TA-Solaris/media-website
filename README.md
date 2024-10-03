@@ -2,6 +2,10 @@
 
 This is a simple media hosting website, like Getty or Shutterstock, written in React.
 
-# Run the Application
+## First Time Setup
+
+- Run `npm install` in the **react** directory.
+
+## Run the Application
 
 - Run `npm start` in the **react** directory.
