@@ -2,7 +2,7 @@ import Gallery from '../components/Gallery';
 
 function Home() {
   return (
-    <section>
+    <section style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       <Gallery />
     </section>
   );
