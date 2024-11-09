@@ -1,14 +1,16 @@
 # Media Website
 
-This is a simple media hosting website, like Getty or Shutterstock, written in React.
+This is a simple media hosting website, like Getty or Shutterstock, written in React and Go.
 
 ## First Time Setup
 
-- Run `npm install` in the **react** directory.
+- Install [Node.js](https://nodejs.org/en) version **18.20.4**
+- Run `npm install` in the **/frontend** directory.
 
 ## Run the Application
 
-- Run `npm start` in the **react** directory.
+- Run `npm start` in the **/frontend** directory.
+- Go to [http://localhost:3000](http://localhost:3000) in a browser.
 
 ## Contributing
 
