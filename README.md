@@ -4,8 +4,8 @@ This is a simple media hosting website, like Getty or Shutterstock, written in R
 
 ## Development
 
-- For running with build: `docker compose up --build`
-- For running with cache: `docker compose up`
+- For running with build: `docker compose -f docker-compose.local.yaml up --build`
+- For running with cache: `docker compose -f docker-compose.local.yaml up`
 - Go to [http://localhost:3000](http://localhost:3000) in a browser.
 
 ### Frontend Non-Docker Instructions
