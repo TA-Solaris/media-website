@@ -2,15 +2,17 @@
 
 This is a simple media hosting website, like Getty or Shutterstock, written in React and Go.
 
-## First Time Setup
+## Development
 
-- Install [Node.js](https://nodejs.org/en) version **18.20.4**
-- Run `npm install` in the **/frontend** directory.
-
-## Run the Application
-
-- Run `npm start` in the **/frontend** directory.
+- For running with build: `docker compose up --build`
+- For running with cache: `docker compose up`
 - Go to [http://localhost:3000](http://localhost:3000) in a browser.
+
+### Frontend Non-Docker Instructions
+
+- Install [Node.js](https://nodejs.org/en) version **23.1.0**
+- Run `npm install` in the **/frontend** directory.
+- Run `npm start` in the **/frontend** directory.
 
 ## Contributing
 
