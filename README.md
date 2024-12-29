@@ -8,17 +8,25 @@ This is a simple media hosting website, like Getty or Shutterstock, written in R
 - For running with cache: `docker compose -f docker-compose.local.yaml up`
 - Go to [http://localhost:3000](http://localhost:3000) in a browser.
 
-### Frontend Non-Docker Instructions
+### Local Configuration
 
 - Install [Node.js](https://nodejs.org/en) version **23.1.0**
+- Install [Go](https://go.dev/dl/) version **1.23.4**
+- Install [gRPC](https://grpc.io/docs/languages/go/quickstart/)
+
+### Frontend Local (Non-Docker) Running Instructions
+
 - Run `npm install` in the **/frontend** directory.
 - Run `npm start` in the **/frontend** directory.
 
-### Backend Non-Docker Instructions
+### Backend Local (Non-Docker) Running Instructions
 
-- Install [Go](https://go.dev/dl/) version **1.23.4**
 - Install [Air](https://github.com/air-verse/air) using Go `go install github.com/air-verse/air@latest`
 - Run each service in the **/backend** directory using the `air` command
+
+### Useful Commands
+
+- Regen gRPC Proxies with `make gen` in the **/backend** directory
 
 ## Contributing
 

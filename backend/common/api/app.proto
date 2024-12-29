@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "github.com/TA-Solaris/common/api";
+
+package api;
+
+message Media {
+  string ID = 1;
+  string userID = 2;
+}
+
+service MediaService {
+  rpc Upload(UploadRequest) returns (Media);
+}
+
+message UploadRequest {
+  string userID = 1;
+}
