@@ -24,7 +24,7 @@ func main() {
 	}
 	defer conn.Close()
 
-	log.Println("Dialing media service at %s", mediaServiceAddr)
+	log.Println("Dialing media service at", mediaServiceAddr)
 	mediaServiceClient := pb.NewMediaServiceClient(conn)
 
 	mux := http.NewServeMux()
