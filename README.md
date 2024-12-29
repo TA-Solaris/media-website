@@ -14,6 +14,12 @@ This is a simple media hosting website, like Getty or Shutterstock, written in R
 - Run `npm install` in the **/frontend** directory.
 - Run `npm start` in the **/frontend** directory.
 
+### Backend Non-Docker Instructions
+
+- Install [Go](https://go.dev/dl/) version **1.23.4**
+- Install [Air](https://github.com/air-verse/air) using Go `go install github.com/air-verse/air@latest`
+- Run each service in the **/backend** directory using the `air` command
+
 ## Contributing
 
 ### Style Rules
