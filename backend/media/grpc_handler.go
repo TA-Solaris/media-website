@@ -12,10 +12,14 @@ import (
 
 type grpcHandler struct {
 	pb.UnimplementedMediaServiceServer
+
+	service MediaService
 }
 
-func RegisterGRPCHandler(grpcServer *grpc.Server) {
-	handler := &grpcHandler{}
+func RegisterGRPCHandler(grpcServer *grpc.Server, service MediaService) {
+	handler := &grpcHandler{
+		service: service,
+	}
 	pb.RegisterMediaServiceServer(grpcServer, handler)
 }
 

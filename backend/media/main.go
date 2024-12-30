@@ -25,7 +25,7 @@ func main() {
 	upload := NewUpload()
 	svc := NewService(upload)
 
-	RegisterGRPCHandler(grpcServer)
+	RegisterGRPCHandler(grpcServer, svc)
 
 	svc.Upload(context.Background())
 

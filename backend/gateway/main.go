@@ -14,7 +14,7 @@ import (
 
 var (
 	httpAddr         = common.EnvString("HTTP_ADDR", ":8080")
-	mediaServiceAddr = "localhost:2000" // TODO Change to not be hardcoded
+	mediaServiceAddr = "localhost:2000" // TODO Change to not be hardcoded (use service discovery - console?)
 )
 
 func main() {
